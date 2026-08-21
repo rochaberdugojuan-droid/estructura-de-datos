@@ -1,0 +1,20 @@
+
+using System;
+
+public class program
+{
+    //procedimiento
+    static void imprimircabacera(string nombremateria, int grupo, string the_name){
+        Console.WriteLine("==========================================");
+        Console.WriteLine("           UNIVERSIDAD DEL CARIBE    ");
+        Console.WriteLine($" asignatura: { grupo}");
+        Console.WriteLine($"nombre: { the_name }");
+        Console.WriteLine("==========================================");
+    }
+    public static void Main(string[] args)
+    {
+        //llamar a el procedimiento imprimircabecera
+        imprimircabacera("fundamentos de programacion", 1, "juan rocha berdugo");
+
+    }
+}
