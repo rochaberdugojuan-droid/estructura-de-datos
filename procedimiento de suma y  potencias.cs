@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp9
+namespace ConsoleApp11
 {
     internal class Program
     { //PROCEDIMIENTO SUMAR E IMPRIMIR 
@@ -38,7 +38,7 @@ namespace ConsoleApp9
             ImprimirSuma(1000, -1);
             ImprimirPotencia(5, 3);
 
-            int edad = 22;
+            int edad = 17;
             Console.WriteLine($"ANTES DEL METODO: {edad}");
             ModificarValor(edad);
             Console.WriteLine($"DESPUES DEL METODO: {edad}");
